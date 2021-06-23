@@ -1,0 +1,87 @@
+Spark Command: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/jovyan/work/conf/:/usr/local/spark/jars/* -Xmx1g org.apache.spark.deploy.history.HistoryServer
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+21/05/14 14:08:21 INFO HistoryServer: Started daemon with process name: 36@fe471bab34f6
+21/05/14 14:08:21 INFO SignalUtils: Registering signal handler for TERM
+21/05/14 14:08:21 INFO SignalUtils: Registering signal handler for HUP
+21/05/14 14:08:21 INFO SignalUtils: Registering signal handler for INT
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/usr/local/spark-3.1.1-bin-hadoop3.2/jars/spark-unsafe_2.12-3.1.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+21/05/14 14:08:22 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+21/05/14 14:08:22 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:08:22 INFO SecurityManager: Changing modify acls to: jovyan
+21/05/14 14:08:22 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:08:22 INFO SecurityManager: Changing modify acls groups to: 
+21/05/14 14:08:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(jovyan); groups with view permissions: Set(); users  with modify permissions: Set(jovyan); groups with modify permissions: Set()
+21/05/14 14:08:22 INFO FsHistoryProvider: History server ui acls disabled; users with admin permissions: ; groups with admin permissions: 
+21/05/14 14:08:23 INFO Utils: Successfully started service on port 18080.
+21/05/14 14:08:23 INFO HistoryServer: Bound HistoryServer to 0.0.0.0, and started at http://fe471bab34f6:18080
+21/05/14 14:12:23 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress for listing data...
+21/05/14 14:12:24 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress
+21/05/14 14:13:49 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:13:49 INFO SecurityManager: Changing modify acls to: jovyan
+21/05/14 14:13:49 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:13:49 INFO SecurityManager: Changing modify acls groups to: 
+21/05/14 14:13:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(jovyan); groups with view permissions: Set(); users  with modify permissions: Set(jovyan); groups with modify permissions: Set()
+21/05/14 14:13:49 INFO SecurityManager: Changing acls enabled to: false
+21/05/14 14:13:49 INFO SecurityManager: Changing admin acls to: 
+21/05/14 14:13:49 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:13:49 INFO SecurityManager: Changing admin acls groups to: 
+21/05/14 14:13:49 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:15:01 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:15:01 INFO SecurityManager: Changing modify acls to: jovyan
+21/05/14 14:15:01 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:15:01 INFO SecurityManager: Changing modify acls groups to: 
+21/05/14 14:15:01 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(jovyan); groups with view permissions: Set(); users  with modify permissions: Set(jovyan); groups with modify permissions: Set()
+21/05/14 14:15:01 INFO SecurityManager: Changing acls enabled to: false
+21/05/14 14:15:01 INFO SecurityManager: Changing admin acls to: 
+21/05/14 14:15:01 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:15:01 INFO SecurityManager: Changing admin acls groups to: 
+21/05/14 14:15:01 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:15:02 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress to re-build UI...
+21/05/14 14:15:05 WARN ReplayListenerBus: Got JsonParseException from log file file:/home/jovyan/work/spark-history/local-1621001539164.inprogress at line 530, the file might not have finished writing cleanly.
+21/05/14 14:15:05 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress
+21/05/14 14:15:15 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:15:15 INFO SecurityManager: Changing modify acls to: jovyan
+21/05/14 14:15:15 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:15:15 INFO SecurityManager: Changing modify acls groups to: 
+21/05/14 14:15:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(jovyan); groups with view permissions: Set(); users  with modify permissions: Set(jovyan); groups with modify permissions: Set()
+21/05/14 14:15:15 INFO SecurityManager: Changing acls enabled to: false
+21/05/14 14:15:15 INFO SecurityManager: Changing admin acls to: 
+21/05/14 14:15:15 INFO SecurityManager: Changing view acls to: jovyan
+21/05/14 14:15:15 INFO SecurityManager: Changing admin acls groups to: 
+21/05/14 14:15:15 INFO SecurityManager: Changing view acls groups to: 
+21/05/14 14:15:15 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress to re-build UI...
+21/05/14 14:15:16 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621001539164.inprogress
+21/05/14 14:16:53 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621001539164 for listing data...
+21/05/14 14:16:53 INFO FsHistoryProvider: Looking for end event; skipping 1107838 bytes from file:/home/jovyan/work/spark-history/local-1621001539164...
+21/05/14 14:16:53 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621001539164
+21/05/14 14:17:33 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621001849219.inprogress for listing data...
+21/05/14 14:17:33 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621001849219.inprogress
+21/05/15 12:20:46 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621081242738.inprogress for listing data...
+21/05/15 12:20:46 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621081242738.inprogress
+21/05/16 01:21:24 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621128079839.inprogress for listing data...
+21/05/16 01:21:25 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621128079839.inprogress
+21/05/17 13:00:39 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621081242738 for listing data...
+21/05/17 13:00:39 INFO FsHistoryProvider: Looking for end event; skipping 10101343 bytes from file:/home/jovyan/work/spark-history/local-1621081242738...
+21/05/17 13:00:39 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621081242738
+21/05/17 13:00:49 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621256444825.inprogress for listing data...
+21/05/17 13:00:49 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621256444825.inprogress
+21/05/17 13:29:59 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621256444825 for listing data...
+21/05/17 13:29:59 INFO FsHistoryProvider: Looking for end event; skipping 19399344 bytes from file:/home/jovyan/work/spark-history/local-1621256444825...
+21/05/17 13:29:59 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621256444825
+21/05/17 13:30:09 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621258205715.inprogress for listing data...
+21/05/17 13:30:09 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621258205715.inprogress
+21/05/17 13:31:59 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621258205715 for listing data...
+21/05/17 13:31:59 INFO FsHistoryProvider: Looking for end event; skipping 2019740 bytes from file:/home/jovyan/work/spark-history/local-1621258205715...
+21/05/17 13:31:59 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621258205715
+21/05/17 13:32:09 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621258318755.inprogress for listing data...
+21/05/17 13:32:09 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621258318755.inprogress
+21/05/17 14:38:30 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621258318755 for listing data...
+21/05/17 14:38:30 INFO FsHistoryProvider: Looking for end event; skipping 45870189 bytes from file:/home/jovyan/work/spark-history/local-1621258318755...
+21/05/17 14:38:30 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621258318755
+21/05/17 14:38:40 INFO FsHistoryProvider: Parsing file:/home/jovyan/work/spark-history/local-1621262315869.inprogress for listing data...
+21/05/17 14:38:40 INFO FsHistoryProvider: Finished parsing file:/home/jovyan/work/spark-history/local-1621262315869.inprogress
